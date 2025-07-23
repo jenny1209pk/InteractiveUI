@@ -17,7 +17,12 @@ struct ContentView: View {
                 .font(.title)
                 .border(Color.gray, width: 1)
                 .padding()
-            
+            Button("Submit Name") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .font(.title2)
+            .buttonStyle(.borderedProminent)
+            .tint(.purple)
         }
         .padding()
     }
