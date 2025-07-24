@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         
         
+       
         VStack {
             Text(textTile)
                 .font(.title)
@@ -23,6 +24,8 @@ struct ContentView: View {
                 .padding()
             Button("Submit Name") {
                 textTile = "Welcome, \(name)!"
+                
+                
             }
             .font(.title2)
             .buttonStyle(.borderedProminent)
